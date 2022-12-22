@@ -18,7 +18,7 @@ public class QueryProcessorTest {
 
     @Test
     public void knowsAboutShakespeare() throws Exception {
-        assertThat(queryProcessor.process("Shakespeare"), containsString("incorrect"));
+        assertThat(queryProcessor.process("Shakespeare"), containsString("Shakespeare"));
     }
 
 }
